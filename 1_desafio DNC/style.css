@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0e1e42;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+header h1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+header > img{
+    width: 150px;
+}
+h2{
+    text-align: center;
+}
+.msg{
+    text-align: center;
+    padding: 20px;
+    font-size: 22px;
+}
+.etapa{
+    display: none;
+    margin-bottom: 20px;
+}
+.mostrar {
+    display: block;
+}
+#pergunta1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #0e1e42;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #1f3466;
+}
+.etapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+#profi{
+    font-size: 35px;
+    color: aliceblue;
+    text-shadow: 15px;
+    font-weight: bolder;
+}
+#profiDiv{
+    background-color: #0e1e42;
+    border: 10px solid #0e1e42;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+
